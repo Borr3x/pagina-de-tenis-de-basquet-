@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIKE BASKETBALL x NBA | Los Mejores Tenis por Tipo de Cancha & Precios</title>
+  <meta name="description" content="Guía técnica de tenis de básquetbol estilo Nike y NBA. Conoce los mejores modelos para asfalto exterior, duela de madera e híbridas con precios en USD y MXN.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            nike: {
+              black: '#111111',
+              dark: '#0a0a0a',
+              card: '#181818',
+              border: '#2a2a2a',
+              red: '#e50010',
+              orange: '#ff5000',
+              volt: '#d4f800'
+            },
+            nba: {
+              blue: '#1d428a',
+              red: '#c8102e'
+            },
+            lakers: {
+              purple: '#552583',
+              gold: '#fdb927'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#0e0e0e] text-neutral-100 antialiased selection:bg-[#ff5000] selection:text-white">
+
+  <!-- ================= TOP SUB-BAR ================= -->
+  <div class="bg-black border-b border-neutral-900 py-1.5 px-4 sm:px-8 text-[11px] font-semibold text-neutral-400">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <div class="flex items-center gap-5">
+        <span class="flex items-center gap-1.5 text-neutral-200 hover:text-white transition-colors cursor-pointer">
+          <svg class="w-7 h-3.5 fill-current" viewBox="0 0 24 24">
+            <path d="M21.707 5.293c-.29-.29-.74-.35-1.1-.15L3.65 14.13c-1.12.63-1.07 2.25.09 2.82.91.45 2.01.27 2.73-.45l11.45-11.45c.67-.67 1.76-.67 2.43 0 .67.67.67 1.76 0 2.43l-8.59 8.59c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l8.59-8.59c1.45-1.45 1.45-3.81 0-5.26-.02-.02-.04-.04-.06-.06z"/>
+          </svg>
+          <span class="font-bold tracking-wider">NIKE BASKETBALL</span>
+        </span>
+
+        <span class="text-neutral-700">|</span>
+
+        <span class="flex items-center gap-1.5 text-neutral-300">
+          <span class="inline-block px-1.5 py-0.2 bg-gradient-to-r from-blue-700 to-red-600 text-white rounded text-[9px] font-black tracking-widest">NBA</span>
+          <span class="tracking-wide">OFFICIAL SIGNATURE ATHLETES</span>
+        </span>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <span class="hidden md:inline text-neutral-400">Guía Técnica Oficial de Calzado</span>
+        <div class="flex items-center gap-1 bg-neutral-900 px-2 py-0.5 rounded-md border border-neutral-800">
+          <span class="text-[10px] uppercase font-bold text-neutral-400">Moneda:</span>
+          <button data-currency-btn="USD" class="px-1.5 py-0.5 rounded text-[11px] font-bold bg-[#ff5000] text-white">USD</button>
+          <button data-currency-btn="MXN" class="px-1.5 py-0.5 rounded text-[11px] font-bold text-neutral-400 hover:text-white">MXN</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================= MAIN HEADER NAVBAR ================= -->
+  <header class="sticky top-0 z-40 bg-[#111111]/95 backdrop-blur-md border-b border-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 bg-white text-black rounded-lg flex items-center justify-center font-black text-xl tracking-tighter group-hover:bg-[#ff5000] group-hover:text-white transition-colors shadow-lg">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M21.707 5.293c-.29-.29-.74-.35-1.1-.15L3.65 14.13c-1.12.63-1.07 2.25.09 2.82.91.45 2.01.27 2.73-.45l11.45-11.45c.67-.67 1.76-.67 2.43 0 .67.67.67 1.76 0 2.43l-8.59 8.59c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l8.59-8.59c1.45-1.45 1.45-3.81 0-5.26-.02-.02-.04-.04-.06-.06z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-nike text-3xl font-black tracking-tight text-white block leading-none">
+            COURT<span class="text-[#ff5000]">NIKE</span>
+          </span>
+          <span class="text-[9px] uppercase font-bold tracking-widest text-neutral-400">ENGINEERED FOR THE GAME</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-8 text-xs font-bold uppercase tracking-wider text-neutral-300">
+        <a href="#destacados" class="hover:text-white transition-colors flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5000]"></span>
+          Colección Big Three
+        </a>
+        <a href="#catalogo" class="hover:text-white transition-colors">Recomendaciones & Catálogo</a>
+        <a href="#guia-canchas" class="hover:text-white transition-colors">Guía de Canchas</a>
+        <a href="#asistente-quiz" class="hover:text-white transition-colors">Shoe Finder</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="#catalogo" class="px-5 py-2.5 bg-white hover:bg-neutral-200 text-black text-xs font-black uppercase tracking-wider rounded-full transition-all shadow-md hover:scale-105">
+          Ver Catálogo
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= HERO COVER SECTION ================= -->
+  <section class="relative pt-10 pb-16 sm:py-20 lg:py-24 border-b border-neutral-800 overflow-hidden bg-gradient-to-b from-[#141414] via-[#0f0f0f] to-[#0e0e0e]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-neutral-900 border border-neutral-700 rounded-full text-xs font-bold uppercase tracking-widest text-[#ff5000] mb-6">
+            <span class="w-2 h-2 rounded-full bg-[#ff5000] animate-pulse"></span>
+            DOMINA CADA SUPERFICIE • GUÍA TÉCNICA OFICIAL
+          </div>
+
+          <h1 class="font-nike text-5xl sm:text-7xl lg:text-8xl font-black text-white leading-[0.92] tracking-tight mb-6">
+            DEL ASFALTO <br/>
+            A LA DUELA <br/>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#ff5000] via-[#ff1493] to-amber-400">DE LA NBA.</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-neutral-300 font-normal leading-relaxed mb-8 max-w-xl">
+            La física del asfalto no perdona: una goma blanda se desgasta en semanas sobre cemento rugoso, mientras que una suela dura pierde mordida en duela barnizada. Conoce la ingeniería de calzado probada por los atletas más dominantes de la historia.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="#destacados" class="px-7 py-4 bg-[#ff5000] hover:bg-[#e04500] text-white text-xs font-black uppercase tracking-widest rounded-full transition-all shadow-xl shadow-[#ff5000]/25 flex items-center gap-2 group">
+              <span>Ver Giannis, Ja & LeBron</span>
+              <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+            <a href="#catalogo" class="px-6 py-4 bg-neutral-900 hover:bg-neutral-800 text-neutral-200 border border-neutral-700 text-xs font-bold uppercase tracking-widest rounded-full transition-all">
+              Ver Catálogo Completo
+            </a>
+          </div>
+
+          <div class="mt-12 pt-6 border-t border-neutral-800/80 grid grid-cols-3 gap-4 max-w-lg">
+            <div>
+              <span class="font-nike text-3xl text-white block">7 Estrellas</span>
+              <span class="text-[11px] text-neutral-400 font-semibold uppercase">Atletas NBA</span>
+            </div>
+            <div>
+              <span class="font-nike text-3xl text-[#ff5000] block">3 Tipos</span>
+              <span class="text-[11px] text-neutral-400 font-semibold uppercase">Superficies Clave</span>
+            </div>
+            <div>
+              <span class="font-nike text-3xl text-amber-400 block">USD / MXN</span>
+              <span class="text-[11px] text-neutral-400 font-semibold uppercase">Precios en Vivo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Casilla de LeBron James en la Portada -->
+        <div class="lg:col-span-5">
+          <div class="hero-nba-box rounded-3xl p-6 shadow-2xl relative">
+            <div class="flex items-center justify-between gap-3 mb-4">
+              <div class="flex items-center gap-2">
+                <span class="px-2.5 py-0.5 bg-gradient-to-r from-blue-700 to-red-600 text-white rounded text-[10px] font-black tracking-widest">
+                  NBA INSPIRATION
+                </span>
+                <span class="text-xs font-black tracking-wider uppercase text-amber-300">THE KING #23</span>
+              </div>
+              <span class="text-[10px] font-bold text-neutral-400 tracking-wider">LOS ANGELES LAKERS</span>
+            </div>
+
+            <div class="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] bg-black border border-neutral-700/80 group">
+              <img 
+                src="assets/lebron-nba-hero.jpg" 
+                alt="LeBron James #23 Los Angeles Lakers celebrando en la duela de la NBA" 
+                class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+              
+              <div class="absolute bottom-3 left-3 right-3 flex items-end justify-between">
+                <div>
+                  <span class="text-[10px] uppercase font-bold text-amber-400 tracking-widest block">Máximo Anotador Histórico</span>
+                  <h3 class="font-nike text-2xl text-white font-black leading-none">LEBRON RAYMONE JAMES</h3>
+                </div>
+                <div class="text-right">
+                  <span class="px-2 py-1 rounded bg-[#552583] text-[#fdb927] font-nike text-lg font-black tracking-wider border border-[#fdb927]/40">
+                    #23
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-4 border-t border-neutral-800">
+              <p class="text-xs text-neutral-300 leading-relaxed italic">
+                "No importa si juegas en la duela del Staples Center o en el asfalto de tu barrio: el calzado que elijas determina tu agarre, tu frenado y la salud de tus rodillas."
+              </p>
+              
+              <div class="mt-3 flex items-center justify-between text-[11px] text-neutral-400">
+                <span class="flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                  Superficie probada: Duela Profesional & Streetball
+                </span>
+                <a href="#destacados" class="text-amber-400 font-bold hover:underline">Ver Calzado de Reyes →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= COLECCIÓN DESTACADA: THE BIG THREE ================= -->
+  <section id="destacados" class="py-16 sm:py-24 bg-[#111111] border-b border-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="w-8 h-1 bg-[#ff5000]"></span>
+            <span class="text-xs uppercase font-black tracking-widest text-[#ff5000]">LÍNEA PRINCIPAL RECOMENDADA</span>
+          </div>
+          <h2 class="font-nike text-4xl sm:text-6xl font-black text-white tracking-tight">
+            THE BIG THREE // COLECCIÓN ESTRELLA
+          </h2>
+          <p class="text-neutral-400 text-xs sm:text-sm mt-2 max-w-2xl">
+            Cada zapatilla incluye la fotografía oficial del atleta de la NBA que inspiró su diseño y exigencias en la pista.
+          </p>
+        </div>
+
+        <div class="flex items-center gap-2 self-start md:self-auto">
+          <span class="text-xs text-neutral-400 uppercase font-bold tracking-wider">Moneda activa:</span>
+          <div class="flex items-center gap-1 bg-black p-1 rounded-lg border border-neutral-800">
+            <button data-currency-btn="USD" class="px-2.5 py-1 rounded text-xs font-bold bg-[#ff5000] text-white">USD ($)</button>
+            <button data-currency-btn="MXN" class="px-2.5 py-1 rounded text-xs font-bold text-neutral-400 hover:text-white">MXN ($)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjetas Big Three -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- 1. GIANNIS IMMORTALITY 4 ROSA -->
+        <div class="nike-card rounded-3xl overflow-hidden flex flex-col justify-between group border border-neutral-800 hover:border-pink-500/60 transition-all duration-300">
+          <div>
+            <div class="relative bg-gradient-to-r from-emerald-950 via-neutral-900 to-neutral-900 p-4 border-b border-neutral-800 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-pink-500 bg-neutral-950 shadow-lg flex-shrink-0">
+                  <img src="assets/giannis-player.jpg" alt="Giannis Antetokounmpo" class="w-full h-full object-cover object-top" />
+                </div>
+                <div>
+                  <span class="text-[10px] font-black uppercase text-pink-400 tracking-widest block">SIGNATURE ATHLETE</span>
+                  <h4 class="font-nike text-lg text-white font-black leading-tight">GIANNIS ANTETOKOUNMPO</h4>
+                  <span class="text-[11px] text-neutral-400 font-bold">#34 • Milwaukee Bucks</span>
+                </div>
+              </div>
+              <span class="badge-nike-pink px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider">
+                ASFALTO
+              </span>
+            </div>
+
+            <div class="relative bg-[#1c1c1c] aspect-[4/3] flex items-center justify-center p-4 overflow-hidden">
+              <img src="assets/giannis-immortality-4.jpg" alt="Giannis Immortality 4 Rosa" class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105" />
+              <div class="absolute bottom-3 left-4">
+                <span class="px-2.5 py-0.5 rounded bg-black/80 text-pink-300 text-[10px] font-bold uppercase tracking-wider border border-pink-500/30">
+                  Colorway: Pink Flare
+                </span>
+              </div>
+              <div class="absolute top-3 right-4">
+                <span class="px-2.5 py-1 rounded-full text-[11px] font-black bg-black/80 text-amber-400 border border-amber-400/30">
+                  ★ 4.8
+                </span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h3 class="font-nike text-3xl font-black text-white group-hover:text-pink-400 transition-colors">
+                GIANNIS IMMORTALITY 4
+              </h3>
+              <div class="mt-2 flex items-baseline gap-2">
+                <span class="text-2xl font-black text-white font-mono" data-price-usd="85" data-price-mxn="1599">$85 USD</span>
+                <span class="text-xs text-neutral-400 uppercase font-bold">Calidad / Precio Top</span>
+              </div>
+              <p class="text-xs text-neutral-300 mt-3 leading-relaxed">
+                Construido para el desgaste del streetball y el asfalto. Su caucho macizo endurecido resiste fricción extrema sin borrarse en pocas semanas.
+              </p>
+
+              <div class="mt-5 space-y-2 pt-4 border-t border-neutral-800">
+                <div>
+                  <div class="flex justify-between text-[11px] mb-1">
+                    <span class="text-neutral-400 font-bold uppercase">Durabilidad en Asfalto</span>
+                    <span class="font-mono font-black text-emerald-400">9.6 / 10</span>
+                  </div>
+                  <div class="w-full bg-neutral-800 rounded-full h-2 overflow-hidden">
+                    <div class="bg-gradient-to-r from-pink-500 to-rose-600 h-full rounded-full" style="width: 96%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-[11px] mb-1">
+                    <span class="text-neutral-400 font-bold uppercase">Tracción & Frenado</span>
+                    <span class="font-mono font-black text-cyan-400">9.1 / 10</span>
+                  </div>
+                  <div class="w-full bg-neutral-800 rounded-full h-2 overflow-hidden">
+                    <div class="bg-cyan-500 h-full rounded-full" style="width: 91%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openShoeModal('giannis-immortality-4-pink')" class="flex-1 py-3 bg-white hover:bg-pink-500 hover:text-white text-black text-xs font-black uppercase tracking-wider rounded-xl transition-all text-center">
+              Ficha Técnica & Atleta
+            </button>
+            <button onclick="toggleCompare('giannis-immortality-4-pink')" class="px-4 py-3 bg-neutral-800 hover:bg-neutral-700 text-white rounded-xl text-xs font-bold">
+              +
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. NIKE JA 3 + FOTO DE JA MORANT -->
+        <div class="nike-card rounded-3xl overflow-hidden flex flex-col justify-between group border border-neutral-800 hover:border-cyan-500/60 transition-all duration-300">
+          <div>
+            <div class="relative bg-gradient-to-r from-cyan-950 via-neutral-900 to-neutral-900 p-4 border-b border-neutral-800 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-cyan-400 bg-neutral-950 shadow-lg flex-shrink-0">
+                  <img src="assets/ja-player.webp" alt="Ja Morant" class="w-full h-full object-cover object-top" />
+                </div>
+                <div>
+                  <span class="text-[10px] font-black uppercase text-cyan-400 tracking-widest block">SIGNATURE ATHLETE</span>
+                  <h4 class="font-nike text-lg text-white font-black leading-tight">JA MORANT</h4>
+                  <span class="text-[11px] text-neutral-400 font-bold">#12 • Memphis Grizzlies</span>
+                </div>
+              </div>
+              <span class="bg-blue-600 text-white px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider">
+                DUELA
+              </span>
+            </div>
+
+            <div class="relative bg-[#1c1c1c] aspect-[4/3] flex items-center justify-center p-4 overflow-hidden">
+              <img src="assets/ja-3.webp" alt="Nike Ja 3 ZoomX" class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105" />
+              <div class="absolute bottom-3 left-4">
+                <span class="px-2.5 py-0.5 rounded bg-black/80 text-cyan-300 text-[10px] font-bold uppercase tracking-wider border border-cyan-500/30">
+                  Tech: ZoomX + Air Zoom
+                </span>
+              </div>
+              <div class="absolute top-3 right-4">
+                <span class="px-2.5 py-1 rounded-full text-[11px] font-black bg-black/80 text-amber-400 border border-amber-400/30">
+                  ★ 4.9
+                </span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h3 class="font-nike text-3xl font-black text-white group-hover:text-cyan-400 transition-colors">
+                NIKE JA 3 'ZOOMX'
+              </h3>
+              <div class="mt-2 flex items-baseline gap-2">
+                <span class="text-2xl font-black text-white font-mono" data-price-usd="135" data-price-mxn="2499">$135 USD</span>
+                <span class="text-xs text-neutral-400 uppercase font-bold">Gama Alta Reactiva</span>
+              </div>
+              <p class="text-xs text-neutral-300 mt-3 leading-relaxed">
+                Suela con espigas dentadas 3D para frenada en seco inmediata en madera pulida combinada con espuma ZoomX para despegues supersónicos.
+              </p>
+
+              <div class="mt-5 space-y-2 pt-4 border-t border-neutral-800">
+                <div>
+                  <div class="flex justify-between text-[11px] mb-1">
+                    <span class="text-neutral-400 font-bold uppercase">Tracción en Duela (Grip)</span>
+                    <span class="font-mono font-black text-cyan-400">9.9 / 10</span>
+                  </div>
+                  <div class="w-full bg-neutral-800 rounded-full h-2 overflow-hidden">
+                    <div class="bg-cyan-400 h-full rounded-full" style="width: 99%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-[11px] mb-1">
+                    <span class="text-neutral-400 font-bold uppercase">Retorno de Energía (ZoomX)</span>
+                    <span class="font-mono font-black text-emerald-400">9.5 / 10</span>
+                  </div>
+                  <div class="w-full bg-neutral-800 rounded-full h-2 overflow-hidden">
+                    <div class="bg-emerald-500 h-full rounded-full" style="width: 95%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openShoeModal('nike-ja-3-zoomx')" class="flex-1 py-3 bg-white hover:bg-cyan-500 hover:text-black text-black text-xs font-black uppercase tracking-wider rounded-xl transition-all text-center">
+              Ficha Técnica & Atleta
+            </button>
+            <button onclick="toggleCompare('nike-ja-3-zoomx')" class="px-4 py-3 bg-neutral-800 hover:bg-neutral-700 text-white rounded-xl text-xs font-bold">
+              +
+            </button>
+          </div>
+        </div>
+
+        <!-- 3. LEBRON WITNESS 8 + FOTO DE LEBRON JAMES -->
+        <div class="nike-card rounded-3xl overflow-hidden flex flex-col justify-between group border border-neutral-800 hover:border-amber-400/60 transition-all duration-300">
+          <div>
+            <div class="relative bg-gradient-to-r from-purple-950 via-neutral-900 to-neutral-900 p-4 border-b border-neutral-800 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="w-14 h-14 rounded-full overflow-hidden border-2 border-amber-400 bg-neutral-950 shadow-lg flex-shrink-0">
+                  <img src="assets/lebron-player.webp" alt="LeBron James" class="w-full h-full object-cover object-top" />
+                </div>
+                <div>
+                  <span class="text-[10px] font-black uppercase text-amber-400 tracking-widest block">SIGNATURE ATHLETE</span>
+                  <h4 class="font-nike text-lg text-white font-black leading-tight">LEBRON JAMES</h4>
+                  <span class="text-[11px] text-neutral-400 font-bold">#23 • Los Angeles Lakers</span>
+                </div>
+              </div>
+              <span class="badge-lakers px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider">
+                HÍBRIDO
+              </span>
+            </div>
+
+            <div class="relative bg-[#1c1c1c] aspect-[4/3] flex items-center justify-center p-4 overflow-hidden">
+              <img src="assets/lebron-witness-8.webp" alt="Nike LeBron Witness 8" class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105" />
+              <div class="absolute bottom-3 left-4">
+                <span class="px-2.5 py-0.5 rounded bg-black/80 text-amber-300 text-[10px] font-bold uppercase tracking-wider border border-amber-500/30">
+                  Emblema: Lion King #23
+                </span>
+              </div>
+              <div class="absolute top-3 right-4">
+                <span class="px-2.5 py-1 rounded-full text-[11px] font-black bg-black/80 text-amber-400 border border-amber-400/30">
+                  ★ 4.8
+                </span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h3 class="font-nike text-3xl font-black text-white group-hover:text-amber-400 transition-colors">
+                LEBRON WITNESS 8
+              </h3>
+              <div class="mt-2 flex items-baseline gap-2">
+                <span class="text-2xl font-black text-white font-mono" data-price-usd="110" data-price-mxn="2099">$110 USD</span>
+                <span class="text-xs text-neutral-400 uppercase font-bold">Todo-Terreno Blindado</span>
+              </div>
+              <p class="text-xs text-neutral-300 mt-3 leading-relaxed">
+                Unidad Max Air en talón para neutralizar impactos severos sobre asfalto o duela. Estructura blindada con el león coronado.
+              </p>
+
+              <div class="mt-5 space-y-2 pt-4 border-t border-neutral-800">
+                <div>
+                  <div class="flex justify-between text-[11px] mb-1">
+                    <span class="text-neutral-400 font-bold uppercase">Protección de Impacto (Max Air)</span>
+                    <span class="font-mono font-black text-amber-400">9.4 / 10</span>
+                  </div>
+                  <div class="w-full bg-neutral-800 rounded-full h-2 overflow-hidden">
+                    <div class="bg-gradient-to-r from-[#552583] to-[#fdb927] h-full rounded-full" style="width: 94%"></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="flex justify-between text-[11px] mb-1">
+                    <span class="text-neutral-400 font-bold uppercase">Versatilidad de Cancha</span>
+                    <span class="font-mono font-black text-emerald-400">9.0 / 10</span>
+                  </div>
+                  <div class="w-full bg-neutral-800 rounded-full h-2 overflow-hidden">
+                    <div class="bg-emerald-500 h-full rounded-full" style="width: 90%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 flex gap-2">
+            <button onclick="openShoeModal('lebron-witness-8-lakers')" class="flex-1 py-3 bg-white hover:bg-amber-400 hover:text-black text-black text-xs font-black uppercase tracking-wider rounded-xl transition-all text-center">
+              Ficha Técnica & Atleta
+            </button>
+            <button onclick="toggleCompare('lebron-witness-8-lakers')" class="px-4 py-3 bg-neutral-800 hover:bg-neutral-700 text-white rounded-xl text-xs font-bold">
+              +
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= CATÁLOGO COMPLETO Y RECOMENDACIONES ================= -->
+  <main id="catalogo" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-neutral-800">
+    
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8">
+      <div>
+        <span class="text-xs uppercase font-black tracking-widest text-[#ff5000] block mb-2">RECOMENDACIONES & CATÁLOGO</span>
+        <h2 class="font-nike text-4xl sm:text-5xl font-black text-white">TODAS LAS ZAPATILLAS RECOMENDADAS</h2>
+        <p class="text-neutral-400 text-xs sm:text-sm mt-1" id="results-count">Cargando catálogo...</p>
+      </div>
+
+      <div class="w-full lg:w-96">
+        <div class="relative">
+          <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Buscar por jugador (Wade, Anthony Edwards, Curry, Kobe...), marca..." 
+            class="w-full bg-neutral-900 border border-neutral-700 rounded-full py-3 pl-11 pr-4 text-xs text-white placeholder-neutral-500 focus:outline-none focus:border-[#ff5000] transition-colors"
+          />
+          <svg class="w-4 h-4 text-neutral-400 absolute left-4 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Barra de Filtros -->
+    <div class="bg-neutral-900/90 rounded-2xl p-5 mb-8 border border-neutral-800 space-y-4">
+      <div>
+        <span class="text-[11px] font-black uppercase tracking-wider text-neutral-400 block mb-2">Filtrar por Cancha:</span>
+        <div class="flex flex-wrap gap-2">
+          <button data-court-filter="all" class="px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-[#ff5000] text-white">
+            Todas las Canchas
+          </button>
+          <button data-court-filter="outdoor" class="px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-neutral-800 text-neutral-300 hover:bg-neutral-700">
+            🛣️ Asfalto / Cemento (Outdoor)
+          </button>
+          <button data-court-filter="indoor" class="px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-neutral-800 text-neutral-300 hover:bg-neutral-700">
+            🏟️ Duela / Madera (Indoor)
+          </button>
+          <button data-court-filter="hybrid" class="px-4 py-2 rounded-full text-xs font-black uppercase tracking-wider transition-all bg-neutral-800 text-neutral-300 hover:bg-neutral-700">
+            🔄 Versátiles / Híbridas
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-neutral-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <span class="text-[11px] font-black uppercase tracking-wider text-neutral-400 block mb-2">Rango de Precio:</span>
+          <div class="flex flex-wrap gap-2">
+            <button data-budget-filter="all" class="px-3 py-1.5 rounded-lg text-xs font-bold uppercase bg-[#ff5000] text-white">
+              Todos
+            </button>
+            <button data-budget-filter="budget" class="px-3 py-1.5 rounded-lg text-xs font-bold uppercase bg-neutral-800 text-neutral-300 hover:bg-neutral-700">
+              Económicos (&lt; $100 USD)
+            </button>
+            <button data-budget-filter="mid" class="px-3 py-1.5 rounded-lg text-xs font-bold uppercase bg-neutral-800 text-neutral-300 hover:bg-neutral-700">
+              Gama Media ($100 - $140 USD)
+            </button>
+            <button data-budget-filter="premium" class="px-3 py-1.5 rounded-lg text-xs font-bold uppercase bg-neutral-800 text-neutral-300 hover:bg-neutral-700">
+              Alta Gama (&gt; $140 USD)
+            </button>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span class="text-[11px] font-black uppercase tracking-wider text-neutral-400 whitespace-nowrap">Ordenar por:</span>
+          <select id="sort-select" class="bg-neutral-950 border border-neutral-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-[#ff5000]">
+            <option value="recommended">Destacados & Calificación</option>
+            <option value="durability">Mayor Durabilidad en Asfalto</option>
+            <option value="traction">Mayor Agarre en Duela</option>
+            <option value="price-low">Precio: Menor a Mayor</option>
+            <option value="price-high">Precio: Mayor a Menor</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-neutral-800">
+        <span class="text-[11px] font-black uppercase tracking-wider text-neutral-400 block mb-2">Filtrar por Marca:</span>
+        <div id="brand-filters" class="flex flex-wrap gap-1.5"></div>
+      </div>
+    </div>
+
+    <!-- Grid de Zapatillas Generado con app.js -->
+    <div id="shoes-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+  </main>
+
+  <!-- ================= GUÍA DE TIPOS DE CANCHA ================= -->
+  <section id="guia-canchas" class="py-16 sm:py-24 bg-[#0a0a0a] border-t border-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs uppercase font-black tracking-widest text-[#ff5000] block mb-2">INGENIERÍA DE RENDIMIENTO</span>
+        <h2 class="font-nike text-4xl sm:text-5xl font-black text-white">¿POR QUÉ CADA CANCHA EXIGE UNA SUELA DISTINTA?</h2>
+        <p class="text-neutral-400 text-sm mt-3">
+          En el básquetbol moderno, la interacción entre el caucho de la suela y la superficie define tu velocidad de reacción, frenado en seco y prevención de lesiones en rodillas.
+        </p>
+      </div>
+
+      <div id="court-guides-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8"></div>
+    </div>
+  </section>
+
+  <!-- ================= ASISTENTE INTERACTIVO / SHOE FINDER QUIZ ================= -->
+  <section id="asistente-quiz" class="py-16 sm:py-20 bg-gradient-to-b from-[#111111] via-[#0d0d0d] to-[#111111] border-t border-neutral-800">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-neutral-900/90 rounded-3xl p-6 sm:p-10 border border-neutral-800 shadow-2xl relative overflow-hidden">
+        <div id="quiz-intro" class="text-center">
+          <div class="inline-flex p-3 rounded-2xl bg-[#ff5000]/10 text-[#ff5000] mb-4">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+          </div>
+          <h3 class="font-nike text-3xl font-black text-white mb-2">NIKE SHOE FINDER</h3>
+          <p class="text-neutral-300 text-sm max-w-lg mx-auto mb-6">
+            Descubre si tu juego pide la resistencia de <strong>Giannis Immortality 4</strong> o <strong>All City 12</strong>, el agarre de <strong>Ja 3</strong>, <strong>Curry Flow 8</strong> o <strong>Kobe 8</strong>, o el blindaje híbrido de <strong>Adidas AE 1</strong> o <strong>LeBron Witness 8</strong>.
+          </p>
+          <button id="quiz-start-btn" class="px-8 py-3.5 bg-[#ff5000] hover:bg-[#e04500] text-white font-black text-xs uppercase tracking-widest rounded-full transition-all shadow-lg shadow-[#ff5000]/30">
+            Comenzar Asistente (3 Preguntas)
+          </button>
+        </div>
+
+        <div id="quiz-step-1" class="hidden text-center">
+          <span class="text-xs uppercase font-black text-[#ff5000] tracking-wider">Paso 1 de 3</span>
+          <h4 class="font-nike text-3xl font-black text-white mt-1 mb-6">¿En qué cancha juegas habitualmente?</h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <button onclick="selectQuizAnswer(1, 'outdoor')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-pink-500 text-left transition-all">
+              <span class="text-3xl mb-2 block">🛣️</span>
+              <strong class="text-white block text-sm font-bold uppercase">Asfalto / Cemento</strong>
+              <p class="text-xs text-neutral-400 mt-1">Canchas públicas exteriores con pavimento rugoso.</p>
+            </button>
+            <button onclick="selectQuizAnswer(1, 'indoor')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-blue-500 text-left transition-all">
+              <span class="text-3xl mb-2 block">🏟️</span>
+              <strong class="text-white block text-sm font-bold uppercase">Duela de Madera</strong>
+              <p class="text-xs text-neutral-400 mt-1">Gimnasios techados de duela barnizada profesional.</p>
+            </button>
+            <button onclick="selectQuizAnswer(1, 'hybrid')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-400 text-left transition-all">
+              <span class="text-3xl mb-2 block">🔄</span>
+              <strong class="text-white block text-sm font-bold uppercase">Uso Mixto (50/50)</strong>
+              <p class="text-xs text-neutral-400 mt-1">Alterno entre retas en parque y ligas en duela.</p>
+            </button>
+          </div>
+        </div>
+
+        <div id="quiz-step-2" class="hidden text-center">
+          <span class="text-xs uppercase font-black text-[#ff5000] tracking-wider">Paso 2 de 3</span>
+          <h4 class="font-nike text-3xl font-black text-white mt-1 mb-6">¿Cuál es la prioridad de tu juego?</h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <button onclick="selectQuizAnswer(2, 'durability')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-pink-500 text-left transition-all">
+              <span class="text-3xl mb-2 block">🛡️</span>
+              <strong class="text-white block text-sm font-bold uppercase">Durabilidad Extrema</strong>
+              <p class="text-xs text-neutral-400 mt-1">Suela que no se gaste y resista fricción continua.</p>
+            </button>
+            <button onclick="selectQuizAnswer(2, 'traction')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-cyan-400 text-left transition-all">
+              <span class="text-3xl mb-2 block">⚡</span>
+              <strong class="text-white block text-sm font-bold uppercase">Frenado Seco Instantáneo</strong>
+              <p class="text-xs text-neutral-400 mt-1">Tracción máxima para cambios de dirección.</p>
+            </button>
+            <button onclick="selectQuizAnswer(2, 'cushion')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-400 text-left transition-all">
+              <span class="text-3xl mb-2 block">👑</span>
+              <strong class="text-white block text-sm font-bold uppercase">Protección Articular</strong>
+              <p class="text-xs text-neutral-400 mt-1">Amortiguación potente para cuidar rodillas.</p>
+            </button>
+          </div>
+        </div>
+
+        <div id="quiz-step-3" class="hidden text-center">
+          <span class="text-xs uppercase font-black text-[#ff5000] tracking-wider">Paso 3 de 3</span>
+          <h4 class="font-nike text-3xl font-black text-white mt-1 mb-6">¿Cuál es tu rango de presupuesto?</h4>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <button onclick="selectQuizAnswer(3, 'budget')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-pink-500 text-left transition-all">
+              <span class="text-3xl mb-2 block">💵</span>
+              <strong class="text-white block text-sm font-bold uppercase">Económico (&lt; $100)</strong>
+              <p class="text-xs text-neutral-400 mt-1">Menos de $100 USD (&lt; $1,850 MXN)</p>
+            </button>
+            <button onclick="selectQuizAnswer(3, 'mid')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-cyan-400 text-left transition-all">
+              <span class="text-3xl mb-2 block">💳</span>
+              <strong class="text-white block text-sm font-bold uppercase">Gama Media ($100 - $140)</strong>
+              <p class="text-xs text-neutral-400 mt-1">$100 - $140 USD ($1,850 - $2,600 MXN)</p>
+            </button>
+            <button onclick="selectQuizAnswer(3, 'premium')" class="p-5 rounded-2xl bg-neutral-950 hover:bg-neutral-800 border border-neutral-800 hover:border-amber-400 text-left transition-all">
+              <span class="text-3xl mb-2 block">🏆</span>
+              <strong class="text-white block text-sm font-bold uppercase">Signature Élite (&gt; $140)</strong>
+              <p class="text-xs text-neutral-400 mt-1">Más de $140 USD (&gt; $2,600 MXN)</p>
+            </button>
+          </div>
+        </div>
+
+        <div id="quiz-result" class="hidden">
+          <div class="text-center mb-6">
+            <span class="text-xs uppercase font-black text-[#ff5000] tracking-wider">¡MATCH ENCONTRADO!</span>
+            <h4 class="font-nike text-3xl font-black text-white mt-1">TU RECOMENDACIÓN TÉCNICA OFICIAL</h4>
+          </div>
+          <div id="quiz-recommended-card"></div>
+          <div class="text-center mt-6">
+            <button onclick="resetQuiz()" class="text-xs text-neutral-400 hover:text-white underline">
+              Reiniciar prueba
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= COMPARADOR FLOTANTE ================= -->
+  <aside id="compare-drawer" class="compare-drawer hide fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-xl z-50 bg-black/95 backdrop-blur-xl border border-neutral-700 rounded-2xl p-4 shadow-2xl">
+    <div class="flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5000] animate-pulse"></span>
+        <span class="text-xs font-black uppercase tracking-wider text-white">Comparador de Tenis</span>
+        <span id="compare-count-badge" class="px-2 py-0.5 rounded-full text-[10px] font-black bg-[#ff5000] text-white">0/3</span>
+      </div>
+      <button onclick="clearComparison()" class="text-xs text-neutral-400 hover:text-white underline">
+        Limpiar
+      </button>
+    </div>
+    <div id="compare-items-preview" class="flex items-center gap-2 mt-3 overflow-x-auto pb-1"></div>
+    <div class="mt-3 pt-3 border-t border-neutral-800 flex justify-end">
+      <button onclick="openCompareModal()" class="w-full py-2.5 px-4 rounded-xl bg-[#ff5000] hover:bg-[#e04500] text-white text-xs font-black uppercase tracking-wider transition-all shadow-md flex items-center justify-center gap-2">
+        <span>Comparar Modelos Cara a Cara</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path></svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ================= MODAL FICHA TÉCNICA DETALLADA ================= -->
+  <div id="shoe-modal" class="modal-overlay fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 overflow-y-auto">
+    <div id="shoe-modal-content" class="modal-content w-full max-w-4xl bg-[#141414] rounded-3xl border border-neutral-700 shadow-2xl my-8 overflow-hidden"></div>
+  </div>
+
+  <!-- ================= MODAL COMPARACIÓN LADO A LADO ================= -->
+  <div id="compare-modal" class="modal-overlay fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden items-center justify-center p-4 overflow-y-auto">
+    <div class="modal-content w-full max-w-5xl bg-[#141414] rounded-3xl border border-neutral-700 shadow-2xl my-8 overflow-hidden p-6 sm:p-8">
+      <div class="flex items-center justify-between pb-4 mb-4 border-b border-neutral-800">
+        <div>
+          <span class="text-xs font-black uppercase tracking-widest text-[#ff5000]">ESPECIFICACIONES TÉCNICAS</span>
+          <h3 class="font-nike text-3xl font-black text-white">COMPARATIVA CARA A CARA</h3>
+        </div>
+        <button onclick="closeCompareModal()" class="p-2 rounded-full bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white transition-all">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      <div id="compare-table-container"></div>
+    </div>
+  </div>
+
+  <!-- ================= FOOTER NIKE / NBA ================= -->
+  <footer class="bg-black border-t border-neutral-900 py-12 text-neutral-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded bg-white text-black flex items-center justify-center font-black">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M21.707 5.293c-.29-.29-.74-.35-1.1-.15L3.65 14.13c-1.12.63-1.07 2.25.09 2.82.91.45 2.01.27 2.73-.45l11.45-11.45c.67-.67 1.76-.67 2.43 0 .67.67.67 1.76 0 2.43l-8.59 8.59c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l8.59-8.59c1.45-1.45 1.45-3.81 0-5.26-.02-.02-.04-.04-.06-.06z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-nike text-lg font-black text-white tracking-wider">COURTNIKE • NBA EDITION</span>
+          <p class="text-neutral-500 text-[11px]">Dwyane Wade • Anthony Edwards • Stephen Curry • Kobe Bryant • Giannis • Ja • LeBron</p>
+        </div>
+      </div>
+      <p class="text-center md:text-right text-neutral-500">
+        Precios referenciales de retail oficial en USD y MXN. Todas las marcas registradas pertenecen a sus respectivos fabricantes y a la NBA.
+      </p>
+    </div>
+  </footer>
+
+  <script src="shoes-data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

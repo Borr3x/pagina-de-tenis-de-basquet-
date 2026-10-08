@@ -1,0 +1,158 @@
+/* Nike & NBA Inspired Aesthetic Stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800;900&family=Oswald:wght@500;600;700&display=swap');
+
+:root {
+  --nike-black: #111111;
+  --nike-pure-black: #000000;
+  --nike-card-dark: #191919;
+  --nike-card-light: #f5f5f7;
+  --nike-red: #e50010;
+  --nike-orange: #ff5000;
+  --nike-volt: #d4f800;
+  --nba-blue: #1d428a;
+  --nba-red: #c8102e;
+  --lakers-purple: #552583;
+  --lakers-gold: #fdb927;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #0c0c0c;
+  color: #f5f5f5;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* Nike typography styling */
+.font-nike {
+  font-family: 'Anton', 'Oswald', impact, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.font-condensed {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Clean Nike / NBA Card */
+.nike-card {
+  background-color: #171717;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nike-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.7);
+}
+
+/* Featured Hero Showcase Card (LeBron #23 reference) */
+.hero-nba-box {
+  background: linear-gradient(135deg, rgba(29, 66, 138, 0.25) 0%, rgba(85, 37, 131, 0.35) 50%, rgba(17, 17, 17, 0.95) 100%);
+  border: 1px solid rgba(253, 185, 39, 0.35);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-nba-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #1d428a, #fdb927, #c8102e);
+}
+
+/* Kobe Bryant Mamba Card Special Glow */
+.kobe-mamba-card {
+  border-color: rgba(85, 37, 131, 0.5);
+  background: linear-gradient(160deg, #181422 0%, #151515 50%, #121018 100%);
+}
+
+.kobe-mamba-card:hover {
+  border-color: rgba(253, 185, 39, 0.6);
+  box-shadow: 0 20px 40px -10px rgba(85, 37, 131, 0.5), 0 0 25px -5px rgba(253, 185, 39, 0.3);
+}
+
+/* Athlete Badge on Cards */
+.athlete-chip {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.2s ease;
+}
+
+.athlete-chip:hover {
+  border-color: rgba(255, 80, 0, 0.6);
+  transform: scale(1.02);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5000;
+}
+
+/* Score bar animation */
+.score-fill {
+  transition: width 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Modal styling */
+.modal-overlay {
+  animation: modalFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.modal-content {
+  animation: modalSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalSlideUp {
+  from { opacity: 0; transform: scale(0.96) translateY(12px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Floating compare dock */
+.compare-drawer {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.compare-drawer.show {
+  transform: translateY(0);
+}
+
+.compare-drawer.hide {
+  transform: translateY(120%);
+}
+
+/* Badge glows */
+.badge-lakers {
+  background: linear-gradient(90deg, rgba(85, 37, 131, 0.9), rgba(253, 185, 39, 0.9));
+  color: #ffffff;
+}
+
+.badge-nike-pink {
+  background: linear-gradient(90deg, #ff1493, #ff4500);
+  color: #ffffff;
+}
